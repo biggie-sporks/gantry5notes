@@ -1,6 +1,6 @@
 Gantry 5 Notes
 1. Basics
-    Key Features
+    +Key Features
     
         -Responsive Layout System: uses Nucleus grid system (uses Flexbox and is tied into Layout Manager)
         -Cross-platform support (Joomla 3.4+, WordPress 4.2.2++, etc...)
@@ -28,3 +28,68 @@ Gantry 5 Notes
         -New Outline System
         -Use SCSS, LESS or CSS
                             
+    +System Requirements
+        -Requirements: Joomla 3.4
+        -Server Requirements: PHP 5.4+, Curl, OpenSSL Libraries, Multibyte String Support
+            ~note: if xdebug is enabled, set xdebug.max_nesting_level >100
+        -Browser Requirements: Chrome 41+, Firefox 36+, Safari 8+, Opera 28+, IE10+
+        -Development Environments: MAMP, WAMP, LAMP, etc.
+        
+    +Installation:
+        -Downloading Gantry: Gantry requires 2 parts:
+            1) Gantry Framework (Gantry Component, library, associated plugins)
+            2) A Gantry-Powered Theme
+        -Install Gantry Framework 1st, then Gantry Theme
+        -Set Gantry theme as default using Template Manager Styles
+        
+    +Getting Started:
+        -Access Gantry 5 Administrator using Joomla->Components->Gantry 5 Themes
+        -Navigating Gantry 5 Administrator:
+        
+            Outlines: This administrative panel lists displays the current theme's outlines,
+            giving you quick access to edit, rename, duplicate, and delete them.
+
+            Menu Editor: This administrative panel gives you the ability to enhance the
+            platform's menu by altering styling, rearranging links, and creating menu items
+            that sit outside of the CMS's integrated Menu Manager.
+
+            About: This page gives you quick, at-a-glance information about the
+            currently-accessed theme. This is a one-stop shop for information about the theme
+            including: name, version number, creator, support links, features, and more.
+
+            Extras: This button opens a dropdown that gives you access to Clear Cache and
+            Platform Settings functionality.
+
+            Outlines Dropdown: This dropdown displays various outlines associated with your
+            site. You can use it to quickly switch between them to edit their individual settings.
+
+            Styles (Pictured): The Styles administrative panel gives you access to
+            style-related settings for the outline. This includes things like theme colors,
+            fonts, style presets, and more.
+
+            Settings: The Settings administrative panel offers you the ability to configure the
+            functional settings of the theme. This includes setting defaults for Particles, as
+            well as enabling/disabling individual Particles.
+
+            Layout: The Layout administrative panel is where you would configure the layout for
+            your theme. Creating an placing module positions, Particles, spacers, and non-rendered
+            scripts such as Google Analytics code is all done in this panel.
+
+            Assignments : The Assignments administrative panel only appears on child outlines
+            which can be assigned to specific areas of your site. If you are in the Base Outline,
+            you will not see this administrative panel as it can't be assigned.
+        
+        
+        -What are Outlines, Particles, Atoms, etc.?
+            Outline: A configurable style used in one or more areas of your site. It serves as
+            the container on which a page's style, settings, and layout are set.
+            
+            Particle: A typically small block of data used on the front end. It acts a lot like
+            a widget/module, but can be easily configured in the Gantry 5 Administrator.
+        
+            Atom: A type of Particle that contains non-rendered data, such as custom scripting
+            (JS, CSS, etc.) or analytics scripts for traffic tracking.
+            
+            
+            
+            
