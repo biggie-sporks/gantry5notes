@@ -91,5 +91,62 @@ Gantry 5 Notes
             (JS, CSS, etc.) or analytics scripts for traffic tracking.
             
             
+    +License & Usage: See Documentation
+        
+    +Updating: Joomla->Control Panel->Maintenance->Gantry 5 - Update Now!
+    
+    +Uninstallation: Unset Gantry Template as Default, Uninstall Gantry
+        
+    +Terminology:
+        -Outline:
+            ~A style specific to one or more areas on your site (traditionally created in the
+            template manager by duplicating an installed theme.)
+            ~Each outline can have its own Style, Particle, Layout settings, can be assigned
+            to specific pages
+    
+        -Base Outline:
+            ~Acts as the global default; Can't be assigned to any pages; acts a set of defaults
+            that are overridden by other outlines.
+    
+        -Creating a New Outline: Navigate to "Outlines" in Gantry 5 Admin Panel, select the blue
+        Plus (+) button, click the blank outline box with a gray Plus (+) sign in it, or select
+        Duplicate under an outline you would like to base your new outline on.
+    
+        -Particle: a piece of pre-written code that can be configured by Gantry 5 Administrator
+        and added directly to a page layout; can insert HTML, images, links, text, etc.
+    
+        -Atom: a type of Particle that does not render visually on the frontend. Allows the
+        addition of scripted pieces (Javascript to load at bottom of page, Google analytics,
+        etc.) to page in a modular fashion. Atoms can be placed in page layout using a special
+        "Atoms" section in the layout manager.
+        
+        -Position: A position may be a Joomla module position, a page's main content body
+        (Page Content), or Spacers (used to create spaced between Particles or Positions)
+        
+        -Module Position vs. Module Instance:
+            ~A module position is a container in which you can assign modules so they appear on
+            the front end.
+            ~A module instance in as single module, injected directly into a specific place in
+            the page.
             
-            
+    +Roadmap: See Gantry 5 Changelog
+    
+2. Configuration
+    
+    +Gantry Admin
+    
+    +Admin Panels: 2 types:
+        1) Global Settings (Menu & About Panels), Outlines Panel,
+        2) Outline Specific Panels
+
+    +Global Admin Panels - have influence over the entire theme
+    
+    +Outlines: Standard, System
+    
+        -Standard Outlines:
+            ~created by user, based on a Layout Preset, assigned to various page types
+            ~Default outline acts as a master
+        -System Outlines: 
+    
+    
+    
